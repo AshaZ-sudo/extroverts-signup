@@ -679,7 +679,7 @@ if (page === "parties") {
       {/* PARTY 3 */}
       <div className="party-feed-card">
         <div className="party-feed-image">
-          <img src="/party3.png" alt="Party 3" />
+          src={`${import.meta.env.BASE_URL}party3.png`}
         </div>
 
         <div className="party-feed-content">
