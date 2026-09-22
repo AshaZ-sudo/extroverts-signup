@@ -677,11 +677,15 @@ if (page === "parties") {
 </div>
 
       {/* PARTY 3 */}
-      <div className="party-feed-card">
-        <div className="party-feed-image">
-          src={`${import.meta.env.BASE_URL}party3.png`}
-        </div>
-
+     <div className="party-feed-card">
+  <div className="party-feed-image">
+    <img
+      src={`${import.meta.env.BASE_URL}party3.png`}
+      alt="Party 3"
+      className="party-three-image"
+    />
+  </div>
+       
         <div className="party-feed-content">
           <h2>Hi</h2>
 
