@@ -878,8 +878,8 @@ if (page === "home" || page === "account")  {
 {/* PARTY CARD 2 */}
 <div className="party-card party-card-two">
   <div className="party-image">
-    <img 
-  src="/party2.jpg"
+   <img 
+  src={`${import.meta.env.BASE_URL}party2.jpg`}
   alt="Party 2"
   className="party-two-image"
 />
@@ -941,10 +941,10 @@ if (page === "home" || page === "account")  {
 <div className="party-card party-card-three">
   <div className="party-image">
     <img
-      src="/party3.png"
-      alt="Party 3"
-      className="party-three-image"
-    />
+  src={`${import.meta.env.BASE_URL}party3.png`}
+  alt="Party 3"
+  className="party-three-image"
+/>
   </div>
 
   <div className="party-title-row">
